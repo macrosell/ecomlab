@@ -1,0 +1,124 @@
+
+body{
+  overflow: hidden;
+}
+.topnav{
+  background-color: white;
+  z-index: 4;
+}
+.topnav img{
+  width: 10%;
+  position: relative;
+  left: 10%;
+  z-index: 4;
+}
+.topnav h1{
+  position: absolute;
+  font-family: century gothic;
+  font-weight: inherit;
+  top: -5px;
+  left: 18%;
+  z-index: 4;
+
+}
+.buttons{
+  position: absolute;
+  top: 4%;
+  left: 66%;
+  z-index: 4;
+}
+.buttons a{
+  border: 1px solid black;
+  padding: 4px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: century gothic;
+  font-size: 13px;
+  z-index: 4;
+}
+.buttons a:hover{
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #bfff00;
+  border-right: 1px solid #bfff00;
+  color: black;
+  z-index: 4;
+}
+.about{
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2021/04/otap.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    position: relative;
+    top: -100px;
+}
+.inner-section{
+    width: 15%;
+    float: right;
+    background-color: rgba(100,100,255,0.8);
+    padding: 200px;
+    box-shadow: 10px 10px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.about h1{
+  font-family: century gothic;
+  font-weight: inherit;
+}
+.skills button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 50px;
+    }
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}

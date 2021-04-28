@@ -1,0 +1,199 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #dbdbdb;
+  background-image: url(http://localhost/wordpress/wp-content/uploads/2021/04/BG3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.topnav{
+  background-color: white;
+}
+.topnav img{
+  width: 10%;
+  position: relative;
+  left: 10%;
+}
+.topnav h1{
+  position: absolute;
+  font-family: century gothic;
+  font-weight: inherit;
+  top: -5px;
+  left: 18%;
+}
+.buttons{
+  position: absolute;
+  top: 4%;
+  left: 65%;
+}
+.buttons a{
+  border: 1px solid black;
+  padding: 4px 30px;
+  cursor: pointer;
+  font-family: century gothic;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+.buttons a:hover{
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #bfff00;
+  border-right: 1px solid #bfff00;
+  color: black;
+}
+.log-in{
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,.3);
+  position: relative;
+  width: 20%;
+  top: 80px;
+  left: 75%;
+  height: 225px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+.log-in input[type=text], .log-in input[type=password]{
+  padding: 10px 16px;
+  border: 1px solid;
+  background-color: transparent;
+  font-family: Century Gothic;
+  margin: 4px;
+  width: 82%;
+  border: none;
+  border-bottom: 1px solid #bfff00;
+}
+.login-button{
+  width: 95%;
+  padding: 8px 16px;
+  border: none;
+  margin: 5px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #bfff00;
+  font-family: Century Gothic;
+}
+.login-button:hover{
+  transform: scale(1.01);
+  transition: transform 0.1s;
+}
+.log-in span{
+  position: relative;
+  left: 33%;
+  font-size: 11px;
+  font-family: arial;
+}
+.log-in a{
+  text-decoration: none;
+}
+.log-in a:hover{
+  text-decoration: underline;
+}
+.log-in hr{
+  color: white;
+  width: 93%;
+  opacity: 0.5;
+}
+.create-button{
+  position: absolute;
+  left: 63px;
+  bottom: 21px;
+  font-size: 11px;
+  width: 57%;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #ff8300;
+  font-family: Century Gothic;
+}
+.create-button:hover{
+  transform: scale(1.01);
+  transition: transform 0.1s;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(255, 255, 255,0.7); /* Black w/ opacity */
+  transform: top to middle;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 6% auto;
+  padding: 10px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,.3);
+  border-radius: 5px;
+  width: 38%; /* Could be more or less, depending on screen size */
+  font-family: century gothic;
+}
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #F48536;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*--END NG MODAL--*/
+.signup-form{
+}
+.modal-content input[type=text],.modal-content input[type=password]{
+  padding: 10px 16px;
+  border: 1px solid;
+  background-color: rgba(255,255,255,0.8);
+  margin: 4px;
+  border: none;
+  border-bottom: 1px solid #bfff00;
+  font-size: 12px;
+  text-align: center;
+}
+.input-title{
+  font-size: 14px;
+}
+.signup-form h1{
+  font-weight: initial;
+}
+.signup-form h2{
+  font-weight: initial;
+  font-size: 17px;
+}
+.signup-form hr{
+  color: white;
+  opacity: 0.7;
+  width: 103.5%;
+  position: relative;
+  right: 10px;
+}
+.create{
+  width: 50%;
+  padding: 8px 16px;
+  border: none;
+  margin: 5px 125px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #bfff00;
+  font-family: Century Gothic;
+}
+.create:hover{
+  background-color: #f57b24;
+  transform: scale(1.01);
+  transition: transform 0.1s;
+}
